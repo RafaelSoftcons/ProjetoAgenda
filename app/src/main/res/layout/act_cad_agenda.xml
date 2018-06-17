@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ActMainAjendaDeContato"
-    tools:showIn="@layout/act_main_agenda_de_contato">
+    tools:context=".ActCadAgenda">
 
 </android.support.constraint.ConstraintLayout>

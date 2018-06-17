@@ -12,7 +12,8 @@
         <activity
             android:name=".ActMainAjendaDeContato"
             android:label="@string/title_activity_act_main_ajenda_de_contato"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ActCadAgenda"></activity>
     </application>
 
 </manifest>

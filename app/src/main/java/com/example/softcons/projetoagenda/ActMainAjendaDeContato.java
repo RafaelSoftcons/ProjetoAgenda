@@ -12,7 +12,7 @@ public class ActMainAjendaDeContato extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_act_main_ajenda_de_contato);
+        setContentView(R.layout.act_main_agenda_de_contato);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
