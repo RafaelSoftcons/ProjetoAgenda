@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProjetoAgenda</string>
+    <string name="title_activity_act_main_ajenda_de_contato">Ajenda De Contato</string>
 </resources>
