@@ -1,4 +1,4 @@
 package com.example.softcons.projetoagenda;
 
-public class ContatoAdapter {
+public class AgendaAdapter {
 }

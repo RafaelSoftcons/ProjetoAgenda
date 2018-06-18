@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ActMainAgendaDeContato"
+            android:name=".ActMainAgenda"
             android:label="@string/title_activity_act_main_ajenda_de_contato"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ActCadAgenda"></activity>
