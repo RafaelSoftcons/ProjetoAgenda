@@ -13,6 +13,7 @@ public class ScriptDLL {
         sql.append("        DATA    VARCHAR(200) NOT NULL DEFAULT('') )");
 
         return sql.toString();
+        
     }
 
 }
