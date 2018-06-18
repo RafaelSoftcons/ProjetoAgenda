@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".ActCadAgenda">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Opções"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Data"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="333dp" />
 </android.support.constraint.ConstraintLayout>
