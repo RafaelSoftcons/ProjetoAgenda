@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_ok"
         android:orderInCategory="1"
-        android:title="OKk"
+        android:title="OK"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_cancelar"
