@@ -10,10 +10,10 @@ public class ScriptDLL {
         sql.append("        DESCRICAO        VARCHAR(250) NOT NULL DEFAULT(''),");
         sql.append("        TIPO    VARCHAR(255) NOT NULL DEFAULT(''),");
         sql.append("        HORA       VARCHAR(250) NOT NULL DEFAULT(''),");
-        sql.append("        DATA    VARCHAR(200) NOT NULL DEFAULT('') )");
+        sql.append("        DATAAGENDA    VARCHAR(200) NOT NULL DEFAULT('') )");
 
         return sql.toString();
-        
+
     }
 
 }

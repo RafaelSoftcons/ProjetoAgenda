@@ -5,5 +5,5 @@ public class Agenda {
     public String descricao;
     public String  tipo;
     public String hora;
-    public String data;
+    public String dataAgenda;
 }
