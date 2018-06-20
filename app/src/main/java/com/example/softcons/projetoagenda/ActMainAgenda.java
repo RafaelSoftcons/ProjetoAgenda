@@ -72,10 +72,10 @@ public class ActMainAgenda extends AppCompatActivity {
 
                         Intent intent = new Intent(ActMainAgenda.this, ActCadAgenda.class);
                         intent.putExtra("codigo", agenda.codigo);
-                        intent.putExtra("nome", agenda.descricao);
-                        intent.putExtra("email", agenda.tipo);
-                        intent.putExtra("telefone", agenda.hora);
-                        intent.putExtra("endereco", agenda.dataAgenda);
+                        intent.putExtra("descricao", agenda.descricao);
+                        intent.putExtra("tipo", agenda.tipo);
+                        intent.putExtra("hora", agenda.hora);
+                        intent.putExtra("data", agenda.dataAgenda);
                         startActivity(intent);
 
                     }

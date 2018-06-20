@@ -19,10 +19,10 @@ public class AgendaRepositorio {
 
     public void inserir(Agenda agenda){
         ContentValues contentValues = new ContentValues();
-        contentValues.put("DESCRICAO", agenda.descricao);
-        contentValues.put("TIPO", agenda.tipo);
-        contentValues.put("HORA", agenda.hora);
-        contentValues.put("DATAAGENDA", agenda.dataAgenda);
+        contentValues.put("descricao", agenda.descricao);
+        contentValues.put("tipo", agenda.tipo);
+        contentValues.put("hora", agenda.hora);
+        contentValues.put("data", agenda.dataAgenda);
 
 
         conexao.insertOrThrow("AGENDA", null, contentValues);
@@ -37,10 +37,10 @@ public class AgendaRepositorio {
 
     public void alterar(Agenda agenda){
         ContentValues contentValues = new ContentValues();
-        contentValues.put("DESCRICAO", agenda.descricao);
-        contentValues.put("TIPO", agenda.tipo);
-        contentValues.put("HORA", agenda.hora);
-        contentValues.put("DATAAGENDA", agenda.dataAgenda);
+        contentValues.put("decricao", agenda.descricao);
+        contentValues.put("tipo", agenda.tipo);
+        contentValues.put("hora", agenda.hora);
+        contentValues.put("data", agenda.dataAgenda);
 
         String[] paramentro = new String[1];
         paramentro[0] = String.valueOf (agenda.codigo);
