@@ -1,5 +1,6 @@
 package com.example.softcons.projetoagenda;
 
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.SQLException;
@@ -15,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.RelativeLayout;
+
 
 import com.example.softcons.projetoagenda.database.DadosOpenHelper;
 import com.example.softcons.projetoagenda.dominio.entidade.Agenda;
@@ -52,11 +54,9 @@ public class ActMainAgenda extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         lsDados.setLayoutManager(linearLayoutManager);
         agendaRepositorio = new AgendaRepositorio(conexao);
-        final List<Agenda> dados = AgendaRepositorio.buscaTodos();
+        final List<Agenda> dados = agendaRepositorio.buscaTodos();
         agendaAdapter = new AgendaAdapter(dados);
         lsDados.setAdapter(agendaAdapter);
-
-        YoYo.with(Techniques.BounceInLeft).duration(2000).repeat(0).playOn(lsDados);
 
 
         lsDados.addOnItemTouchListener(new RecyclerItemClickListener(getApplicationContext(), lsDados, new RecyclerItemClickListener.OnItemClickListener() {

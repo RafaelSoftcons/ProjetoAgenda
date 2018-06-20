@@ -43,10 +43,10 @@ public class ActCadAgenda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_cad_agenda);
 
-        edtDescricao      = (EditText)findViewById(R.id.edNome);
-        edtTipo  = (EditText)findViewById(R.id.edEndereco);
-        edtHora     = (EditText)findViewById(R.id.edEmail);
-        edtData  = (EditText)findViewById(R.id.edTelefone);
+        edtDescricao      = (EditText)findViewById(R.id.edtDescricao);
+        edtTipo  = (EditText)findViewById(R.id.edtTipo);
+        edtHora     = (EditText)findViewById(R.id.edtHora);
+        edtData  = (EditText)findViewById(R.id.edtData);
 
         rLCadAgenda = (RelativeLayout) findViewById(R.id.rLCadAgenda);
 
