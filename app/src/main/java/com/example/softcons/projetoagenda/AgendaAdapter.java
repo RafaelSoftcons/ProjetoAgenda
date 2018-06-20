@@ -22,7 +22,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     public AgendaAdapter.ViewHolderAgenda onCreateViewHolder(ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        View view = layoutInflater.inflate(R.layout.linha_cliente, null, false);
+        View view = layoutInflater.inflate(R.layout.linha_agenda, null, false);
         ViewHolderAgenda holderAgenda = new ViewHolderAgenda(view);
 
         return holderAgenda;

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ProjetoAgenda</string>
-    <string name="title_activity_act_main_ajenda_de_contato">Ajenda De Contato</string>
+    <string name="title_activity_act_main_ajenda_de_contato">Agenda De Compromisso</string>
+    <string name="message_conexao_criada"> Conexão Criada</string>
+    <string name="action_ok">OK</string>
+    <string name="title_aviso">Aviso</string>
+    <string name="message_campos_invalidos_branco">Campos Invalidos</string>
 </resources>
